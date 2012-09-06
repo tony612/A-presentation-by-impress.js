@@ -155,7 +155,19 @@ span, p, h1{
     transition:         opacity 1s;
 }
 
+.impress-enabled #us {
+    margin: 0;
+    opacity: 0;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
 .impress-enabled .step.active { opacity: 1 }
+.impress-enabled #us.active { opacity: 1 }
 
 .slide {
     display: block;
