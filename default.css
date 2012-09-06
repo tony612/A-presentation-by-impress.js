@@ -282,7 +282,23 @@ span, p, h1{
 #tiny {
     font-size: 80px;
 }
+/*
+The reasons part
+*/
+.reason {
+    width:1200px;
+}
 
+.reason span {
+
+    font-size:200px;
+    float:left;
+    line-height: 200px;
+}
+
+.reason p {
+    float: right;
+}
 
 /*
     The last step is an overview.
