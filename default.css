@@ -146,7 +146,7 @@ span, p, h1{
 
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.2;
+    opacity: 0.3;
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
@@ -301,19 +301,76 @@ The reasons part
 }
 
 /*
+
+member
+
+*/
+
+.member .best {
+    font-size: 60px;
+}
+
+.member .name {
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.member p {
+    float: right;
+}
+
+#congying {
+    font-size: 35px;
+}
+
+.impress-on-flower .member {
+    opacity: 1;
+}
+
+.impress-on-flower .reason {
+    opacity: 0;
+}
+
+#flower p {
+    opacity: 0;
+}
+
+#flower p{
+    font-size: 55px;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.impress-on-flower #flower p {
+    opacity: 1;
+}
+
+/*
     The last step is an overview.
     There is no content in it, so we make sure it's not visible because we want
     to be able to click on other steps.
 
 */
-#overview { display: none }
+#overview {
+    opacity: 0;
+}
+
+#overview p {
+    font-size: 150px;
+    margin-left: 300px;
+}
+
+.impress-on-overview #overview{
+    opacity: 1;
+}
 
 /*
     We also make other steps visible and give them a pointer cursor using the
     `impress-on-` class.
 */
 .impress-on-overview .step {
-    opacity: 1;
+    opacity: 0.1;
     cursor: pointer;
 }
 
